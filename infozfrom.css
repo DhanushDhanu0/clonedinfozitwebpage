@@ -1,0 +1,92 @@
+
+p{
+    margin-left: 20%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+
+.form{
+    width: 530px;
+    height: 780px;
+    border: 2px solid transparent;
+    margin-left: 100px;
+    margin-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(222, 198, 198);
+    border-radius: 10px;
+    
+}
+.form h3{
+    text-align: center;
+    padding-top: 20px;
+    color: #05122b;
+    font-size:20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.form .border{
+     width:520px;
+    border: 0.1px solid gray;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.fields{
+    display: flex;
+    margin-bottom: 20px;
+}
+.inputfields{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin-right: 30px;
+    margin-left: 30px;
+    justify-content: center;
+}
+.inputfields input{
+    margin-top: 10px;
+    height: 40px;
+    border-radius: 5px;
+    border: 0.1px solid rgb(128, 128, 136);
+}
+#comOrg{
+    width: 80%;
+    margin-bottom: 20px;
+}
+#option{
+    margin-bottom: 20px;
+}
+#option select{
+    width:480px;
+    height:40px;
+    border-radius: 5px;
+    margin-top: 10px;
+    border: 0.1px solid rgb(167, 167, 176);
+}
+.inputfields textarea{
+   padding-top: 10px;
+   padding-left: 5px;
+   border-radius: 5px;
+   border: 0.1px solid rgb(128, 128, 136);
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#btn{
+    margin-left: 30px;
+    width:100px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.inputfields input:hover{
+    border-radius: 0.2px solid blue;
+}
+.form{
+    margin-left:20%;
+    margin-right: 20%;
+}
